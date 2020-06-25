@@ -1,0 +1,246 @@
+
+<!--
+Author: Aslan Zeyken IS-27
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Aslan.Такси</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Taksi Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="shortcut icon" href="images/iconka.jpg" type="image/png" >	
+<script src="js/jquery.min.js"> </script>
+<!--webfonts-->
+  <link href='//fonts.googleapis.com/css?family=PT+Mono|Abril+Fatface' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+</head>
+<body>
+	<!--start-header-->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+					     <div class="top-menu">
+							<span class="menu"> </span>
+								<ul class="cl-effect-16">
+								 <li><a class="active" href="index.html" data-hover="Домой">Домой</a></li>
+								<li><a  href="about.html" data-hover="О нас">О нас</a></li>
+								<li><a href="gallery.html" data-hover="Галлерея">Галлерея</a></li>
+								<li><a href="blog.html" data-hover="Блог">Блог</a></li>
+								<li><a href="contact.html" data-hover="Контакты">Контакты</a></li>
+								  <div class="clearfix"></div>
+								</ul>
+							</div>
+							<div class="logo">
+							  <a href="index.html"><h1>Так<span>си</span></h1></a>
+						    </div>
+							<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+							<div class="clearfix"> </div>
+					</div>
+				</div>
+				  <div class="banner">
+					<div class="container">
+						<div  id="top" class="callbacks_container">
+						<ul class="rslides" id="slider4">
+						<li>
+									<div class="banner-info">
+										<h3>Мы отвезем вас</h3>
+										<h4>Куда вам нужно</h4>
+									</div>
+								</li>
+								<li>
+									<div class="banner-info">
+									   <h3>Позвоните нам : 8-705-7182-14-0</h3>
+										<h4>Такси онлайн 24/7</h4>
+									</div>
+								</li>
+								<li>
+									<div class="banner-info">
+										<h3>Мы возьмем вас</h3>
+										<h4>Где вам нужно</h4>
+									</div>								
+								</li>
+							</ul>
+						</div>
+						<!--- banner Slider starts Here --->
+					<script src="js/responsiveslides.min.js"></script>
+				 <script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					  // Slideshow 4
+					  $("#slider4").responsiveSlides({
+						auto: true,
+						pager:false,
+						nav: true,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						  $('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+						  $('.events').append("<li>after event fired.</li>");
+						}
+					  });
+				
+					});
+				  </script>
+					</div>
+				
+				   </div>
+			</div>
+		<!--//end-slider-->
+		<!--start-about-->
+	<div class="about">
+		<div class="container">
+		 <h3 class="tittle wel">Добро пожаловать на Aslan.Такси</h3>
+				<div class="about-top">
+					<div class="col-md-7 about-top-right">
+						<h4>Почему нужно выбрать такси Aslan.Такси?</h4>
+						<p>Такси Aslan.Такси предоставляет круглосуточную услугу вызова такси! Заказывая такси в удобное для Вас время и место Вы получаете приемлемые цены и отличный сервис. Операторы таксопарка всегда готовы Вас проконсультировать по услугам такси Вам требуется такси в аэропорт, на вокзал, по городу, услуга трезвого водителя, доставка, курьерская служба или почасовое обслуживание? Наши операторы быстро примут заявку, и отправят самую ближайшую машину к Вам. </p>
+					</div>
+					<div class="col-md-5 about-top-left">
+						<img src="images/wel.jpg" class="img-responsive" alt=""/>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>	 
+	</div>
+		 <!--start-services-->
+     <div class="service-section">
+	    <div class="container">
+			<div class="tittle-head">
+		       <h3 class="tittle">Сервисы</h3>
+			</div>
+		    <div class="serve-grids">
+			      <div class="col-md-6 serve-left">
+							<div class="col-md-6 service-grid">
+								<div class="icon">
+								 <i class="glyphicon glyphicon-time"></i>
+								</div>
+								<h5>Быстро & Безопасно</h5>
+								<p>Наши водители и машины проходят 2 этапную проверку.</p>
+							</div>
+							<div class="col-md-6 service-grid">
+								<div class="icon">
+								 <i class="glyphicon glyphicon-thumbs-up"></i>
+								</div>
+								<h5>Лучшие цены</h5>
+								<p>Лучшие цены на рынке. Минимальная поездка от 400 тг.</p>
+							</div>
+							<div class="clearfix"></div>
+					 </div>
+					 <div class="col-md-6 serve-img">
+					    <img src="images/s1.jpg"/>
+					 </div>
+					 <div class="clearfix"></div>
+					<div class="col-md-6 serve-img two">
+					    <img src="images/s2.jpg"/>
+					 </div>
+					  <div class="col-md-6 serve-left two">
+							<div class="col-md-6 service-grid">
+								<div class="icon">
+								 <i class="glyphicon glyphicon-cog"></i>
+								</div>
+								<h5>Элитные машины</h5>
+								<p>Самые новые и лучшие модели машин в нашем таксопарке.</p>
+							</div>
+							<div class="col-md-6 service-grid">
+								<div class="icon">
+								 <i class="glyphicon glyphicon-briefcase"></i>
+								</div>
+								<h5>Доставка посылки</h5>
+								<p>Наши водители могут доставить не только человека, ну и ваши посылки.</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="clearfix"></div>
+
+					</div>
+				</div>
+			</div>
+    <!--//services-->
+	 <!--start-services--> 
+	 <!--start-mid-section-->
+     <div class="mid-section">
+	    <div class="container">
+		     <div class="mid-top">
+		        <h2>Мы всегда к вашим услугам</h2>
+				<p>Aslan.Такси заботится о своих клиентов. Поэтому дает каждому клиенту купон на бесплатную поездку. Каждая 5-ая поездка бесплатная. Мы любим и ценим наших клиентов!</p>
+		     </div>
+		</div>
+	</div>
+	 <!--/contact-->
+	<div class="contact">
+			<div class="contact-map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11005133.75624526!2d57.92866917935943!3d47.66887705500306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a91007ecfca947%3A0x5f7b842fe4b30e1b!2z0JrQsNC30LDRhdGB0YLQsNC9!5e0!3m2!1sru!2skz!4v1593073983192!5m2!1sru!2skz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<div class="contact-form">
+					<div class="contact-head">
+						<h4>Контакт</h4>
+					 </div>
+					<form> 
+					     <input type="text" class="text" value="Имя" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Имя';}">
+						 <input type="text" class="text" value="Адрес эл.почты" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Адрес эл.почты';}">
+						<input type="text" class="text" value="Тема" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Тема';}">
+						<textarea value="Сообщение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Сообщение';}">Сообщение</textarea>
+						<div class="clearfix"> </div>
+						<div class="sub-button">
+							<input name="submit" type="submit" value="Отправить">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+			<div class="footer">
+				<div class="container">
+					<div class="copy">
+		              <p>Copyright &copy; 2020 Taкси. Все права защищены | Design by Aslan</a> </p>
+		            </div>
+					
+				</div>
+			</div>
+				<!--start-smoth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+</body>
+</html>
